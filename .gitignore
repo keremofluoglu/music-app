@@ -1,0 +1,40 @@
+# Gradle / Kotlin
+.gradle/
+.kotlin/
+build/
+/captures
+.externalNativeBuild
+.cxx
+*.hprof
+
+# Android Studio / IntelliJ: personal settings and caches stay local
+*.iml
+.idea/
+local.properties
+
+# Build outputs
+*.apk
+*.aab
+*.ap_
+*.dex
+output-metadata.json
+
+# Logs and OS files
+*.log
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Signing keys and API keys never go into the repository
+*.jks
+*.keystore
+keystore.properties
+secrets.properties
+
+# Private: design notes, requirements and assistant notes stay on this machine
+docs/
+proje.txt
+fikir.txt
+CLAUDE.md
+
+# Room schema exports (app/schemas) ARE committed: migrations are checked against them.
